@@ -1,0 +1,149 @@
+body {
+    width: 70%;
+    margin: auto;
+}
+
+#estiloFieldset {
+    margin: auto 100px;
+}
+
+.menuPrincipal {
+    display: left;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.tituloGeneral {
+    background-color: rgb(135, 135, 243);
+    color:white;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+img.logoBodyCare {
+    display:inline;
+	width: 15%;
+}
+
+.rectanguloLogo {
+    background-color: #6096FF;
+    float: right;
+    margin-top: 45px;
+    width: 85%;
+    height: 30px;
+}
+
+.estiloFormulario {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.elementoFormulario {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+   
+}
+
+.elementoTabla th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color:rgb(135, 135, 243);    
+    color:white;
+    text-align: center;
+    width: 250px;
+    border: 1px solid #0000ff;
+}
+
+.elementoTabla td input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+.elementoFormulario label {
+    display: inline-block; 
+    width: 200px;   
+}
+
+input[type=text], 
+    input[type=number], 
+    input[type=date],
+    input[type=email],
+    input[type=password] {
+    display: inline-block; 
+    width: 250px;   
+}
+
+input[type=button], 
+	.botonFormulario input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color:rgb(135, 135, 243);    
+    color:white;
+    border: 1px solid #0000ff;
+    width: 200px; 
+}
+
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 257px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+
+  div.botonFormulario {
+    text-align: center;
+  }
+
+textarea {
+    resize: none;
+    scrollbar-width: 0;
+}
+
+.textoAlinear {
+    display: flex;
+    align-items: center;
+}
+
+
+.tituloIngreso {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    float: right;
+    margin-bottom: 20px;
+
+}
+
+#tablaMenu {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8f9f9;
+    border-collapse: collapse;
+}
+
+#tablaMenu td {
+    padding: 10px;
+    text-align: center;
+}
+
+.estiloIngreso {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.elementoIngreso {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.spaceLarge {
+	display: inline-block; 
+    width: 50px;
+}
